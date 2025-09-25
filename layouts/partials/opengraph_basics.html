@@ -1,5 +1,5 @@
-{{ if .Params.photos }}	
-	{{ with index .Params.photos 0 }}
+{{ if .Params.images }}	
+	{{ with index .Params.images 0 }}
 		<meta property="og:image" content="{{ . }}">
 	{{ end }} 
 {{ else }}
